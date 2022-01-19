@@ -61,7 +61,6 @@ public class MainActivity extends AppCompatActivity {
         myIntent.putExtra("Extra_mensaje", mensaje);
         myARL.launch(myIntent);
 
-        startActivity(myIntent);
     }
 
     @Override
